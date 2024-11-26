@@ -1,0 +1,30 @@
+{
+    "user": {
+      "id": 12345,
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "is_active": true
+    },
+    "preferences": {
+      "language": "en",
+      "timezone": "UTC+5:30",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": true
+      }
+    },
+    "recent_activity": [
+      {
+        "activity_id": 1,
+        "type": "login",
+        "timestamp": "2024-11-25T12:00:00Z"
+      },
+      {
+        "activity_id": 2,
+        "type": "update_profile",
+        "timestamp": "2024-11-25T13:00:00Z"
+      }
+    ]
+  }
+  
